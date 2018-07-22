@@ -9,7 +9,7 @@ class Solver_8_queens:
 
     __board_size = 8
 
-    def __init__(self, pop_size=20, cross_prob=1.0, mut_prob=1.0):
+    def __init__(self, pop_size=20, cross_prob=1.0, mut_prob=0.6):
         self.__pop_size = pop_size
         self.__cross_prob = cross_prob
         self.__mut_prob = mut_prob
